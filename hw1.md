@@ -1,8 +1,8 @@
 <h1>hw1<h1>
 
-```swiftui
+```swift
 
-import SwiftUI
+    import SwiftUI
 
 struct ContentView: View {
     var body: some View {
@@ -81,7 +81,7 @@ struct ContentView: View {
     }
 }
 
-
-
 ```
+
+
 <img src="https://raw.githubusercontent.com/yzudanny/Swiftui/main/IMG_0249.jpeg">
