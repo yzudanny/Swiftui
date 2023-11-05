@@ -84,4 +84,4 @@ struct ContentView: View {
 
 
 ```
-<img src="https://raw.githubusercontent.com/yzudanny/Swiftui/new/main/IＭG_0249.jpeg">
+<img src="https://raw.githubusercontent.com/yzudanny/Swiftui/new/main/IMG_0249.jpeg">
