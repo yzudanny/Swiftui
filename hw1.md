@@ -1,8 +1,9 @@
-<h1>hw1<h1>
+<h1>hw1</h1>
 
 ```swift
 
-    import SwiftUI
+    
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
@@ -81,7 +82,10 @@ struct ContentView: View {
     }
 }
 
-```
 
+
+
+
+```
 
 <img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0249.jpeg">
