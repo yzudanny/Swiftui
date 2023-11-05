@@ -1,87 +1,141 @@
-<h1>Hw3<h1>
+<h1>Hw3</h1>
 
 ```swift
 
-import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+  import SwiftUI
+struct ContentView:View{
+    var body:some View{
+        
         ZStack{
-            Image("qwe")
+            Image("Back")
                 .resizable()
-                .aspectRatio(contentMode: .fill)
-                .opacity(0.7)
-                .frame(width: 500, height:100, alignment: .center)
-            Text("劉承軒")
-                .font(.title)
-                .frame(width: 150, height: 70, alignment: .center)
-                .background(Color.primary)
-                .cornerRadius(40)
-                .position(x: 365, y: 340)
-                .foregroundStyle(LinearGradient(
-                    colors: [.red,.blue,.green],
-                    startPoint: .leading,
-                    endPoint:.trailing
-                ))
-                .opacity(0.48)
-                .bold()            
-            Text("1103315")
-                .font(.title)
-                .frame(width: 150, height: 70, alignment: .center)
-                .background(Color.primary)
-                .cornerRadius(40)
-                .position(x: 365, y: 420)
-                .foregroundStyle(LinearGradient(
-                    colors: [.red,.blue,.green],
-                    startPoint: .leading,
-                    endPoint:.trailing
-                ))
-                .opacity(0.48)
-                .bold()        
+            VStack(spacing:120){
+                HStack(spacing:40){
+                    TomatoView()
+                    BananaView()
+                    GuavaView()
+                }
+                .padding(.top, 70)
+                HStack(spacing:40){
+                    pic1View()
+                    pic2View()
+                    pic3View()
+                }
+                .padding(.leading, 0)
+                HStack(spacing:40){
+                    pic4View()
+                    pic5View()
+                    pic6View()
+                }
+                .padding(.bottom,-50)
+            }
             
-            Text("籃球")
-                .font(.title)
-                .frame(width: 150, height: 70, alignment: .center)
-                .background(Color.primary)
-                .cornerRadius(40)
-                .position(x: 365, y: 500)
-                .foregroundStyle(LinearGradient(
-                    colors: [.red,.blue],
-                    startPoint: .leading,
-                    endPoint:.trailing
-                ))
-                .opacity(0.48)
-                .bold()          
-            Image(systemName: "figure.basketball")
-                .foregroundStyle(LinearGradient(
-                    colors: [.blue,.green],
-                    startPoint: .leading,
-                    endPoint:.trailing
-                ))
-                .font(.system(size: 40))
-                .position(x:415, y: 500)    
-                .opacity(0.48)
         }
-        .overlay(
-            Text("面對陽光你就不會看到陰影")
-                .font(.system(size:20))
-                .bold()
-                .frame(width: 300, height: 50, alignment: .center)
-                .foregroundStyle(LinearGradient(
-                    colors: [.red,.blue,.green],
-                    startPoint: .leading,
-                    endPoint:.trailing
-                ))
-                .background(Color.primary)
-                .opacity(0.58)
-                .cornerRadius(40)
-            ,
-            alignment: .bottom
-        )
     }
 }
-
+struct TomatoView: View {
+    var body: some View {
+        VStack {
+            Image("Switch")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2,alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+           /* 
+           Text("tomato")
+                .fontWeight(.bold)
+                .font(.system(size: 0))*/
+        }
+        }
+}
+struct BananaView:View{
+    var body:some View{
+        VStack{
+            Image("Ps5")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct GuavaView:View{
+    var body:some View{
+        VStack{
+            Image("PS4")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic1View:View{
+    var body:some View{
+        VStack{
+            Image("Pic1")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic2View:View{
+    var body:some View{
+        VStack{
+            Image("Pic2")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic3View:View{
+    var body:some View{
+        VStack{
+            Image("Pic3")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic4View:View{
+    var body:some View{
+        VStack{
+            Image("Pic4")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic5View:View{
+    var body:some View{
+        VStack{
+            Image("Pic5")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+struct pic6View:View{
+    var body:some View{
+        VStack{
+            Image("Pic6")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
+                .frame(width: UIScreen.screenWidth/12-2,height: UIScreen.screenHeight/12-2, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
+    extension UIScreen{
+        static let screenWidth=UIScreen.main.bounds.size.width
+        static let screenHeight=UIScreen.main.bounds.size.height
+        static let screensize=UIScreen.main.bounds.size
+    }
+    
 
 
 ```
-<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0251.jpeg">
+
+<img src="https://raw.githubusercontent.com/Jhan711069/Swiftui/main/IMG_0251.jpeg">
