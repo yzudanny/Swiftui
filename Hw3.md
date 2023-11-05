@@ -138,4 +138,4 @@ struct pic6View:View{
 
 ```
 
-<img src="https://raw.githubusercontent.com/Jhan711069/Swiftui/main/IMG_0251.jpeg">
+<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0251.jpeg">
