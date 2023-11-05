@@ -1,6 +1,6 @@
 <h1>hw1<h1>
 
-```swift
+```swiftui
 
 import SwiftUI
 
