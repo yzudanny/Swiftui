@@ -1,8 +1,8 @@
-<h1>bonus<h1>
+<h1>bonus</h1>
 
 ```swift
 
-import SwiftUI
+     import SwiftUI
 
 struct ContentView: View { 
     
@@ -51,6 +51,6 @@ struct ContentView: View {
 
 
 
-
 ```
+
 <img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0252.jpeg">
