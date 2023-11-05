@@ -1,8 +1,10 @@
-<h1>HW2<h1>
+
+<h1>Hw2</h1>
+<p>猜拳會倒數3秒</p>
 
 ```swift
 
-import SwiftUI
+      import SwiftUI
 
 struct ContentView: View {
     @State var count:Int=0
@@ -80,8 +82,9 @@ struct ContentView: View {
 
 
 
+
+
+
 ```
 
-<img src="https://raw.githubusercontent.com/yzu-danny/yzu-Swiftui/main/123.gif">
-
-
+<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/123.gif">
