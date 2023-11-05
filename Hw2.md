@@ -79,7 +79,6 @@ struct ContentView: View {
 }
 
 
-https://github.com/yzudanny/yzu-Swiftui/blob/9fb5bdad00914d25ac46ce43e4f31ec7aaf79142/HitPawOnline_182923.gif
 
 ```
 
