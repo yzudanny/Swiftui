@@ -83,7 +83,6 @@ struct ContentView: View {
 
 ```
 
-![GIF Alt Text](https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/HitPawOnline_182923.gif)
-
+<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/HitPawOnline_182923.gif">
 
 
