@@ -270,4 +270,4 @@ struct WelcomeView: View {
 
 ```
 
-<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0274.jpeg">
+<img src="https://raw.githubusercontent.com/yzudanny/yzu-Swiftui/main/IMG_0274.GIF">
